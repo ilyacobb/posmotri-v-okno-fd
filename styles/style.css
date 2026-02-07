@@ -25,7 +25,6 @@ ul,
 ol {
   list-style: none;
 }
-
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -64,8 +63,8 @@ ol {
   gap: 30px;
   margin: 133px 30px;
   inline-size: 100%;
+  width: 1140px;
 }
-
 .result {
   align-self: flex-end;
 }
@@ -82,12 +81,6 @@ ol {
   align-items: center;
   gap: 40px;
 }
-.content__list-container {
-  overflow-y: auto;
-  overflow-x: hidden;
-  height: 534px;
-  gap: 30px;
-}
 .result__video-container{
   position: relative;
   height: 386px;
@@ -100,8 +93,15 @@ ol {
   object-fit: cover;
   object-position: center;
 }
+/*  */
+.content__list-container {
+  display: flex;
+  flex-direction: column;
+}
 .content__list {
-  position: relative;
+  position: relative; 
+  max-height: 298px;
+  overflow: auto;
 }
 .content__list-item {
   margin-bottom: 30px;
@@ -258,4 +258,6 @@ ol {
   opacity: 1;
   visibility: visible;
 }
-
+.search-form__submit-button {
+  min-width: 194px;
+}
