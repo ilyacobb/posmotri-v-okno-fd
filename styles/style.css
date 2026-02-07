@@ -93,15 +93,13 @@ ol {
   object-fit: cover;
   object-position: center;
 }
-/*  */
 .content__list-container {
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 .content__list {
   position: relative; 
-  max-height: 298px;
-  overflow: auto;
   scrollbar-width: none;
 }
 .content__list-item {
@@ -111,7 +109,6 @@ ol {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 30px;
 }
 .content__video-card-thumbnail {
   height: 103px;
@@ -121,6 +118,8 @@ ol {
 }
 .content__video-card-description-container {
   flex-grow: 1;
+  min-width: 0;
+  max-width: 100%;
 }
 .search-form__fieldset-title {
   font-family: Fira Sans Condensed;
