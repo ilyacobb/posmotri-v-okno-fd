@@ -80,7 +80,7 @@ ol {
   align-items: center;
   gap: 40px;
 }
-.result__video-container{
+.result__video-container {
   position: relative;
   height: 386px;
   width: 711px;
@@ -128,7 +128,7 @@ ol {
   line-height: 100%;
   letter-spacing: 0%;
   }
-.title{
+.title {
   font-family: Oswald;
   font-weight: 700;
   font-style: Bold;
@@ -137,7 +137,7 @@ ol {
   letter-spacing: 0%;
   text-transform: uppercase;
 }
-.content__accent{
+.content__accent {
   color: #545050;
 }
 .content__card-link {
@@ -170,7 +170,7 @@ ol {
   border: none;
   inline-size: 100%;
 }
-.search-form__label{
+.search-form__label {
   display: flex;
   align-items: center;
   width: fit-content;
