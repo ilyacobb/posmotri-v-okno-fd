@@ -102,6 +102,7 @@ ol {
   position: relative; 
   max-height: 298px;
   overflow: auto;
+  scrollbar-width: none;
 }
 .content__list-item {
   margin-bottom: 30px;
