@@ -1,1 +1,1 @@
-Проект "Посмотри в окно"
+https://github.com/ilyacobb/posmotri-v-okno-fd
