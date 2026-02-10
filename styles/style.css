@@ -224,7 +224,6 @@ ol {
   border: 1px solid #FFF;
   width: 19px;
   height: 19px;
-  opacity: 0;
 }
 .search-form__pseudo-checkbox::after {
   content: '';
@@ -233,6 +232,7 @@ ol {
   block-size: 15px;
   inline-size: 15px;
   margin: 1px 0 0 1px;
+  opacity: 0;
 }
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
