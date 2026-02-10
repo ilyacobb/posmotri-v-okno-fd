@@ -125,7 +125,7 @@ ol {
 }
 .search-form__fieldset-title {
   font-weight: 400;
-  font-style: bold;
+  font-style: normal;
   font-size: 18px;
   line-height: 100%;
   }
@@ -142,6 +142,7 @@ ol {
   color: #545050;
 }
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: #FFFFFF;
   font-weight: 400;
